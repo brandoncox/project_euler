@@ -17,6 +17,7 @@ public class ProblemFactory {
 	
 	static{
 		problemFactory = new ProblemFactory();
+		//start at the base of the project structure and scan for any class annotated with the Problem annotation.
 		Reflections reflections = new Reflections("");
 		problems = reflections.getTypesAnnotatedWith(Problem.class);
 	}

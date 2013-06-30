@@ -18,9 +18,10 @@ public class Problem1 extends AbstractProblem {
 	}
 
 	public String getDescription() {
-		return "If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. \n" +
-				"The sum of these multiples is 23.\n" +
-				"Find the sum of all the multiples of 3 or 5 below 1000.";
+		return descriptionBuilder.append("If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.")
+		.append("The sum of these multiples is 23.")
+		.append(NEW_LINE)
+		.append("Find the sum of all the multiples of 3 or 5 below 1000.").toString();
 	}
 
 	public String getTitle() {
