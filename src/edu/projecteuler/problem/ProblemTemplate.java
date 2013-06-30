@@ -2,7 +2,7 @@ package edu.projecteuler.problem;
 
 import java.util.Date;
 
-public abstract class AbstractProblem implements Executable{
+public abstract class ProblemTemplate implements Executable{
 	
 	protected static final String NEW_LINE = "\n";
 	protected StringBuilder descriptionBuilder = new StringBuilder();

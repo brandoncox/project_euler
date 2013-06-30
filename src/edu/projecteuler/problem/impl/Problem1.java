@@ -1,10 +1,10 @@
 package edu.projecteuler.problem.impl;
 
-import edu.projecteuler.problem.AbstractProblem;
+import edu.projecteuler.problem.ProblemTemplate;
 import edu.projecteuler.problem.annotation.Problem;
 
 @Problem
-public class Problem1 extends AbstractProblem {
+public class Problem1 extends ProblemTemplate {
 
 	private static int UPPER = 1000;
 	private int total = 0;

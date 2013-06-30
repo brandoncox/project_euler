@@ -1,10 +1,10 @@
 package edu.projecteuler.problem.impl;
 
-import edu.projecteuler.problem.AbstractProblem;
+import edu.projecteuler.problem.ProblemTemplate;
 import edu.projecteuler.problem.annotation.Problem;
 
 @Problem
-public class Problem3 extends AbstractProblem{
+public class Problem3 extends ProblemTemplate{
 
 	public String execute() {
 		return null;
